@@ -1,6 +1,5 @@
-package com.gvendas.gestaovendas.models;
+package com.gvendas.gestaovendas.model;
 
-import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.EqualsAndHashCode;

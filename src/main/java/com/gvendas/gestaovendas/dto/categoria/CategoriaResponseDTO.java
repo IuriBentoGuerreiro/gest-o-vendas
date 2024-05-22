@@ -1,6 +1,5 @@
 package com.gvendas.gestaovendas.dto.categoria;
 
-import com.gvendas.gestaovendas.models.Categoria;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 

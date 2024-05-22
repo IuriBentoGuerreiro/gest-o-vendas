@@ -1,4 +1,4 @@
-package com.gvendas.gestaovendas.execao;
+package com.gvendas.gestaovendas.exceptions;
 
 
 public class RegraNegocioExeption extends RuntimeException{

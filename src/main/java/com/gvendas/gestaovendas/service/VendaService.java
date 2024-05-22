@@ -1,13 +1,13 @@
-package com.gvendas.gestaovendas.services;
+package com.gvendas.gestaovendas.service;
 
 import com.gvendas.gestaovendas.dto.venda.*;
-import com.gvendas.gestaovendas.execao.RegraNegocioExeption;
-import com.gvendas.gestaovendas.models.Cliente;
-import com.gvendas.gestaovendas.models.ItemVenda;
-import com.gvendas.gestaovendas.models.Produto;
-import com.gvendas.gestaovendas.models.Venda;
-import com.gvendas.gestaovendas.repositorys.ItemVendaRepository;
-import com.gvendas.gestaovendas.repositorys.VendaRepository;
+import com.gvendas.gestaovendas.exceptions.RegraNegocioExeption;
+import com.gvendas.gestaovendas.model.Cliente;
+import com.gvendas.gestaovendas.model.ItemVenda;
+import com.gvendas.gestaovendas.model.Produto;
+import com.gvendas.gestaovendas.model.Venda;
+import com.gvendas.gestaovendas.repository.ItemVendaRepository;
+import com.gvendas.gestaovendas.repository.VendaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.gvendas.gestaovendas.dto.venda.ItemVendaRequestDTO;

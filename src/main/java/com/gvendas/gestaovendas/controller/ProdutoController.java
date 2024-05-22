@@ -1,19 +1,16 @@
-package com.gvendas.gestaovendas.controllers;
+package com.gvendas.gestaovendas.controller;
 
-import com.gvendas.gestaovendas.dto.categoria.CategoriaRequestDTO;
 import com.gvendas.gestaovendas.dto.produto.ProdutoRequestDTO;
 import com.gvendas.gestaovendas.dto.produto.ProdutoResponseDTO;
-import com.gvendas.gestaovendas.models.Categoria;
-import com.gvendas.gestaovendas.models.Produto;
-import com.gvendas.gestaovendas.repositorys.CategoriaRepository;
-import com.gvendas.gestaovendas.services.ProdutoService;
+import com.gvendas.gestaovendas.model.Categoria;
+import com.gvendas.gestaovendas.model.Produto;
+import com.gvendas.gestaovendas.service.ProdutoService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.gvendas.gestaovendas.controllers.util;
+package com.gvendas.gestaovendas.controller.util;
 
 
 import io.swagger.v3.oas.models.OpenAPI;

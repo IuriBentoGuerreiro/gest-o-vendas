@@ -1,6 +1,6 @@
-package com.gvendas.gestaovendas.repositorys;
+package com.gvendas.gestaovendas.repository;
 
-import com.gvendas.gestaovendas.models.Cliente;
+import com.gvendas.gestaovendas.model.Cliente;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ClienteRepository extends JpaRepository<Cliente, Long> {

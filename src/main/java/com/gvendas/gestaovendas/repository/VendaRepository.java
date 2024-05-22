@@ -1,6 +1,6 @@
-package com.gvendas.gestaovendas.repositorys;
+package com.gvendas.gestaovendas.repository;
 
-import com.gvendas.gestaovendas.models.Venda;
+import com.gvendas.gestaovendas.model.Venda;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

@@ -1,7 +1,5 @@
 package com.gvendas.gestaovendas.dto.cliente;
 
-import com.gvendas.gestaovendas.models.Cliente;
-import com.gvendas.gestaovendas.models.Endereco;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

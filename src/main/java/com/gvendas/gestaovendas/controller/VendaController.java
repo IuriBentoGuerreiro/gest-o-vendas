@@ -1,9 +1,8 @@
-package com.gvendas.gestaovendas.controllers;
+package com.gvendas.gestaovendas.controller;
 
 import com.gvendas.gestaovendas.dto.venda.ClienteVendaResponseDTO;
 import com.gvendas.gestaovendas.dto.venda.VendaRequestDTO;
-import com.gvendas.gestaovendas.models.Venda;
-import com.gvendas.gestaovendas.services.VendaService;
+import com.gvendas.gestaovendas.service.VendaService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;

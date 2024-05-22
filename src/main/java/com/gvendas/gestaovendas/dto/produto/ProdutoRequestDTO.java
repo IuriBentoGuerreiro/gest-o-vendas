@@ -1,7 +1,5 @@
 package com.gvendas.gestaovendas.dto.produto;
 
-import com.gvendas.gestaovendas.models.Categoria;
-import com.gvendas.gestaovendas.models.Produto;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.*;
 import lombok.Data;

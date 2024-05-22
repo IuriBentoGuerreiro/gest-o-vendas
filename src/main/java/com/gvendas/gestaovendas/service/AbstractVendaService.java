@@ -1,12 +1,12 @@
-package com.gvendas.gestaovendas.services;
+package com.gvendas.gestaovendas.service;
 
 import com.gvendas.gestaovendas.dto.venda.ClienteVendaResponseDTO;
 import com.gvendas.gestaovendas.dto.venda.ItemVendaRequestDTO;
 import com.gvendas.gestaovendas.dto.venda.ItemVendaResponseDTO;
 import com.gvendas.gestaovendas.dto.venda.VendaResponseDTO;
-import com.gvendas.gestaovendas.models.ItemVenda;
-import com.gvendas.gestaovendas.models.Produto;
-import com.gvendas.gestaovendas.models.Venda;
+import com.gvendas.gestaovendas.model.ItemVenda;
+import com.gvendas.gestaovendas.model.Produto;
+import com.gvendas.gestaovendas.model.Venda;
 
 import java.util.Arrays;
 import java.util.List;

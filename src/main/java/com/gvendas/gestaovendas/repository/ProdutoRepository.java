@@ -1,6 +1,6 @@
-package com.gvendas.gestaovendas.repositorys;
+package com.gvendas.gestaovendas.repository;
 
-import com.gvendas.gestaovendas.models.Produto;
+import com.gvendas.gestaovendas.model.Produto;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

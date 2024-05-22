@@ -1,9 +1,7 @@
-package com.gvendas.gestaovendas.repositorys;
+package com.gvendas.gestaovendas.repository;
 
-import com.gvendas.gestaovendas.models.Categoria;
+import com.gvendas.gestaovendas.model.Categoria;
 import org.springframework.data.jpa.repository.JpaRepository;
-
-import java.util.List;
 
 public interface CategoriaRepository extends JpaRepository<Categoria, Long> {
 

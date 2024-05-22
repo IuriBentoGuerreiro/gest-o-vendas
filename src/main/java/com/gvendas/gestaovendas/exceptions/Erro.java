@@ -1,4 +1,4 @@
-package com.gvendas.gestaovendas.execao;
+package com.gvendas.gestaovendas.exceptions;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

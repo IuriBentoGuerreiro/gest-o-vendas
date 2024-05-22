@@ -1,7 +1,6 @@
 package com.gvendas.gestaovendas.dto.produto;
 
 import com.gvendas.gestaovendas.dto.categoria.CategoriaResponseDTO;
-import com.gvendas.gestaovendas.models.Produto;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;
 import lombok.Data;

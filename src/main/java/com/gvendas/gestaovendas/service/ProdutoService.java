@@ -1,8 +1,8 @@
-package com.gvendas.gestaovendas.services;
+package com.gvendas.gestaovendas.service;
 
-import com.gvendas.gestaovendas.execao.RegraNegocioExeption;
-import com.gvendas.gestaovendas.models.Produto;
-import com.gvendas.gestaovendas.repositorys.ProdutoRepository;
+import com.gvendas.gestaovendas.exceptions.RegraNegocioExeption;
+import com.gvendas.gestaovendas.model.Produto;
+import com.gvendas.gestaovendas.repository.ProdutoRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;

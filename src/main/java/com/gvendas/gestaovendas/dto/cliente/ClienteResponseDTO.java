@@ -1,6 +1,5 @@
 package com.gvendas.gestaovendas.dto.cliente;
 
-import com.gvendas.gestaovendas.models.Cliente;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;
 import lombok.Data;

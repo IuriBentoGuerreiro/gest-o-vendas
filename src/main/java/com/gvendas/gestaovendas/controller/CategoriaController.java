@@ -1,11 +1,9 @@
-package com.gvendas.gestaovendas.controllers;
+package com.gvendas.gestaovendas.controller;
 
 import com.gvendas.gestaovendas.dto.categoria.CategoriaRequestDTO;
 import com.gvendas.gestaovendas.dto.categoria.CategoriaResponseDTO;
-import com.gvendas.gestaovendas.dto.produto.ProdutoResponseDTO;
-import com.gvendas.gestaovendas.models.Categoria;
-import com.gvendas.gestaovendas.models.Produto;
-import com.gvendas.gestaovendas.services.CategoriaService;
+import com.gvendas.gestaovendas.model.Categoria;
+import com.gvendas.gestaovendas.service.CategoriaService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;

@@ -1,8 +1,6 @@
-package com.gvendas.gestaovendas.execao;
+package com.gvendas.gestaovendas.exceptions;
 
-import jakarta.persistence.EntityNotFoundException;
 import org.springframework.dao.DataIntegrityViolationException;
-import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;

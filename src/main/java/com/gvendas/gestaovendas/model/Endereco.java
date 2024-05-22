@@ -1,4 +1,4 @@
-package com.gvendas.gestaovendas.models;
+package com.gvendas.gestaovendas.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;
